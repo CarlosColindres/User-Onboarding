@@ -57,7 +57,7 @@ const Form = ({values, change, submit, disabled,errors}) => {
                         onChange={onChange}
                     />
                 </label>
-                <button disabled={disabled}>submit</button>
+                <button id='submit-btn' disabled={disabled}>submit</button>
             </form>
         </div>
     )
